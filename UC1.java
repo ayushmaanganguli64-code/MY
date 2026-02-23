@@ -1,28 +1,47 @@
-public class UC1 {
+public class OOPSBannerUC3 {
+
     public static void main(String[] args) {
 
-        String O = 
-              " *****  \n"
-            + "*     * \n"
-            + "*     * \n"
-            + "*     * \n"
-            + " *****  \n";
+        System.out.println(String.join(" ",
+                "  *****  ",
+                "  *****  ",
+                " ******  ",
+                " ******  "));
 
-        String P = 
-              " ****** \n"
-            + "*      *\n"
-            + "*      *\n"
-            + " ****** \n"
-            + "*       \n"
-            + "*       \n"
-            + "*       \n";
-        String S = 
-              " ****** \n"
-            + "*       \n"
-            + " *****  \n"
-            + "      * \n"
-            + " ****** \n";
+        System.out.println(String.join(" ",
+                " **   ** ",
+                " **   ** ",
+                " **   ** ",
+                " **      "));
 
-        System.out.println(O + O + P + S);
+        System.out.println(String.join(" ",
+                " **   ** ",
+                " **   ** ",
+                " **   ** ",
+                " **      "));
+
+        System.out.println(String.join(" ",
+                " **   ** ",
+                " **   ** ",
+                " ******  ",
+                "  *****  "));
+
+        System.out.println(String.join(" ",
+                " **   ** ",
+                " **   ** ",
+                " **      ",
+                "      ** "));
+
+        System.out.println(String.join(" ",
+                " **   ** ",
+                " **   ** ",
+                " **      ",
+                " **   ** "));
+
+        System.out.println(String.join(" ",
+                "  *****  ",
+                "  *****  ",
+                " **      ",
+                " ******  "));
     }
 }
